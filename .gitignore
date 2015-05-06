@@ -1,0 +1,8 @@
+[Bb]in
+[Oo]bj
+[Bb]uild
+*.suo
+*.user
+*.mdf
+*.ldf
+*.sdf

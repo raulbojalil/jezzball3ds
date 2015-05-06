@@ -1,0 +1,28 @@
+#ifndef _CONTROLS_H_
+#define _CONTROLS_H_ 
+
+#include <3ds.h>
+
+#define TOUCH_SCREEN_CONTROLS_ENABLED 1
+
+#define CONTROLS_ACCEPT KEY_A
+#define CONTROLS_CANCEL KEY_B
+#define CONTROLS_UP KEY_UP
+#define CONTROLS_DOWN KEY_DOWN
+#define CONTROLS_LEFT KEY_LEFT
+#define CONTROLS_RIGHT KEY_RIGHT
+#define CONTROLS_DIRECTION KEY_B
+#define CONTROLS_HORIZONTAL KEY_Y
+#define CONTROLS_VERTICAL KEY_X
+#define CONTROLS_BUILD_WALL (KEY_A | KEY_L | KEY_R | KEY_X | KEY_Y)
+#define CONTROLS_CONTINUE (KEY_A | KEY_TOUCH)
+#define CONTROLS_EXIT KEY_START
+
+#define CONTROLS_KBENTER KEY_START
+
+void updateControls();
+u32 isKeyPressed(u32 key);
+u32 isKeyDown(u32 key);
+u32 isKeyReleased(u32 key);
+
+#endif
