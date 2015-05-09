@@ -58,7 +58,7 @@ void jezzballInit();
 void initBackground();
 void initLevel(u8 level);
 void initBalls();
-void initWbd();
+void initCursor();
 
 ////////////////////////////
 //////// UPDATE ////////////
