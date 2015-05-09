@@ -1,0 +1,1 @@
+"C:\dolphin-x64\dolphin.exe" /e JezzballWii.dol
